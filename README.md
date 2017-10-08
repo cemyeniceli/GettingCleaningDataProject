@@ -4,7 +4,7 @@
 
 This repo contains the course project for [Coursera](https://www.coursera.org) ["Getting And Cleaning Data"](https://class.coursera.org/getdata-002) course that is part of [Data Science](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage) specialization.
 
-There is an R script called `dataProcess.R`. It contains the code to do the following:
+There is an R script called `run_analysis.R`. It contains the code to do the following:
 
 1. Download a raw Human Activity Recognition Using Smartphones Dataset from UCI to `data` dir
 2. Read data
@@ -18,7 +18,7 @@ There is also a codebook called 'CodeBook.md' which describes the variables, the
 1. Clone this repo
 2. Run the script:
 
-       $ Rscript dataProcess.R
+       $ Rscript run_analysis.R
 
 3. Look for the final dataset at `output/meanStdAverage_UCI_HAR.txt`
 

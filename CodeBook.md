@@ -1,6 +1,6 @@
 # Code Book
 
-This document describes the code `dataProcess.R' which is used to download a raw dataset from UCI (University of California, Irvine) database and manipulate the data for further analysis.
+This document describes the code `run_analysis.R' which is used to download a raw dataset from UCI (University of California, Irvine) database and manipulate the data for further analysis.
 
 ## Human Activity Recognition Using Smartphones Dataset
 
