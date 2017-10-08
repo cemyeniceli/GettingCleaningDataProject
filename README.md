@@ -11,7 +11,7 @@ There is an R script called `dataProcess.R`. It contains the code to do the foll
 3. Manipulate and process data to extract necessary tidy dataset
 4. Write output data to a CSV file inside `data/output` dir
 
-There is also a codebook called 'CodeBook.md' which describes the variables, the data, and any transformations or work that performed to clean up the data. In addition, the processed output data can also be found in this repo called 'output_dataset.csv'.
+There is also a codebook called 'CodeBook.md' which describes the variables, the data, and any transformations or work that performed to clean up the data. In addition, the processed output data can also be found in this repo called 'meanStdAverage_UCI_HAR.txt'.
 
 ## Run from command line
 
@@ -20,6 +20,6 @@ There is also a codebook called 'CodeBook.md' which describes the variables, the
 
        $ Rscript dataProcess.R
 
-3. Look for the final dataset at `output/uci_har_mean_std_averages.csv`
+3. Look for the final dataset at `output/meanStdAverage_UCI_HAR.txt`
 
-	   $ head -3 data/output/meanStdAverage_UCI_HAR.csv.csv
+	   $ head -3 data/output/meanStdAverage_UCI_HAR.txt

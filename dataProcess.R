@@ -97,5 +97,5 @@ path_to_output = file.path(work_dir_main, "output")
 if(!file.exists(path_to_output)) { dir.create(path_to_output) }
 
 # Create the path to output file and write the manipulated data
-outputFile = file.path(path_to_output, "meanStdAverage_UCI_HAR.csv")
-write.csv(mean_std_data, outputFile)
+outputFile = file.path(path_to_output, "meanStdAverage_UCI_HAR.txt")
+write.table(mean_std_data, outputFile, row.names = FALSE)
